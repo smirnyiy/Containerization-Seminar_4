@@ -3,11 +3,11 @@
 В него необходимо поместить приложение, написанное на любом известном вам языке программирования (Python, Java, C, С#, C++).
 При запуске контейнера должно запускаться самостоятельно написанное приложение.
 
-Параметры загрузки Dockerfile на примере alpine:
-FROM alpine:latest
-FROM python:3
-ADD homework4.py /
-CMD [ "python", "homework4.py" ] root@gb-linux:~home/andrey/dockerfiles$
+#Параметры загрузки Dockerfile на примере alpine:
+#FROM alpine:latest
+#FROM python:3
+#ADD homework4.py /
+#CMD [ "python", "homework4.py" ] root@gb-linux:~home/andrey/dockerfiles$
 
 
 
